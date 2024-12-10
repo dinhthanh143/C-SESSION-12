@@ -10,7 +10,10 @@ int fata(int a){
 
 
 int main(){
-	printf("giai thua cua 5 la: %d", fata(6));
+	int num;
+	printf("moi nhap so nguyen to bat ki: ");
+	scanf("%d", &num)
+	printf("giai thua cua %d la: %d",num,fata(num));
 	
 	
 
